@@ -10,7 +10,7 @@ var graph = {
         {"id": "Anthony", "group": 1, "img": "anthony.png", "size": 100, "text": "Anthony", "link": ""},
         {"id": "John", "group": 2, "img": "john.png", "size": 100, "text": "John", "link": ""},
         {"id": "Paul", "group": 3, "img": "Paul.png", "size": 100, "text": "Paul", "link": ""},
-        {"id": "Arash", "group": 4, "img": "Arash.png", "size": 100, "text": "Arash", "link": ""},
+        {"id": "Arash", "group": 4, "img": "Arash.jpg", "size": 100, "text": "Arash", "link": ""},
         {"id": "Jacquie", "group": 5, "img": "Jacquie.png", "size": 70, "text": "Jacquie", "link": ""},
         {"id": "Ioana", "group": 6, "img": "Ioana.png", "size": 80, "text": "Ioana", "link": ""},
         {"id": "Mark", "group": 7, "img": "Mark.png", "size": 80, "text": "Mark", "link": ""},
