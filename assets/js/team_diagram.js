@@ -180,8 +180,10 @@ function ticked() {
 }
 
 function center(){
-    var x = parseFloat(c.style('width')) - 30; // 30 px for bootstrap padding
-    var y = 4 * parseFloat(c.style('height')) - 30;
+    // var x = parseFloat(c.style('width')) - 30; // 30 px for bootstrap padding
+    // var y = 4 * parseFloat(c.style('height')) - 30;
+    var x = $(window).screenLeft();
+    var y = $(window).screenTop();
 
     svg.attr("width", x).attr("height", y);
     borderPath.attr("width", x).attr("height", y);
