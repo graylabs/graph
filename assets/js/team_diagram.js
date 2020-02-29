@@ -10,13 +10,19 @@ var graph = {
         {"id": "Anthony", "group": 1, "img": "anthony.png", "size": 100, "text": "Anthony", "link": ""},
         {"id": "John", "group": 2, "img": "john.png", "size": 100, "text": "John", "link": ""},
         {"id": "Paul", "group": 3, "img": "Paul.png", "size": 100, "text": "Paul", "link": ""},
-        {"id": "Arash", "group": 4, "img": "Arash.png", "size": 80, "text": "Arash", "link": ""},
-        {"id": "Jacquie", "group": 5, "img": "Jacquie.png", "size": 65, "text": "Jacquie", "link": ""},
-        {"id": "Ioana", "group": 6, "img": "Ioana.png", "size": 75, "text": "Ioana", "link": ""},
-        {"id": "Mark", "group": 7, "img": "Mark.png", "size": 75, "text": "Mark", "link": ""},
-        {"id": "Yigit", "group": 7, "img": "Yigit.png", "size": 75, "text": "Yigit", "link": ""},
-        {"id": "Duncan", "group": 1, "img": "duncan.png", "size": 75, "text": "Duncan", "link": ""},
-        {"id": "Stefan", "group": 2, "img": "stefan.png", "size": 75, "text": "Stefan", "link": ""},
+        {"id": "Arash", "group": 4, "img": "Arash.png", "size": 100, "text": "Arash", "link": ""},
+        {"id": "Jacquie", "group": 5, "img": "Jacquie.png", "size": 70, "text": "Jacquie", "link": ""},
+        {"id": "Ioana", "group": 6, "img": "Ioana.png", "size": 80, "text": "Ioana", "link": ""},
+        {"id": "Mark", "group": 7, "img": "Mark.png", "size": 80, "text": "Mark", "link": ""},
+        {"id": "Yigit", "group": 7, "img": "Yigit.png", "size": 70, "text": "Yigit", "link": ""},
+        {"id": "Duncan", "group": 1, "img": "duncan.png", "size": 60, "text": "Duncan", "link": ""},
+        {"id": "Stefan", "group": 2, "img": "stefan.png", "size": 60, "text": "Stefan", "link": ""},
+        {"id": "Aaron", "group": 6, "img": "aaron.png", "size": 60, "text": "Aaron", "link": ""},
+        {"id": "Brian", "group": 8, "img": "brian.png", "size": 70, "text": "Brian", "link": ""},
+        {"id": "Carol", "group": 8, "img": "carol.png", "size": 60, "text": "Carol", "link": ""},
+        {"id": "Giulia", "group": 4, "img": "giulia.png", "size": 60, "text": "Giulia", "link": ""},
+        {"id": "Lori", "group": 8, "img": "lori.png", "size": 60, "text": "Lori", "link": ""},
+
 
     ],
     "links": [
@@ -25,6 +31,8 @@ var graph = {
         {"source": "Paul", "target": "Arash", "value": 4},
         {"source": "Paul", "target": "Jacquie", "value": 4},
         {"source": "Paul", "target": "Ioana", "value": 4},
+        {"source": "Paul", "target": "Brian", "value": 4},
+        {"source": "Paul", "target": "Lori", "value": 4},
         {"source": "Anthony", "target": "John", "value": 4},
         {"source": "Anthony", "target": "Arash", "value": 4},
         {"source": "Anthony", "target": "Jacquie", "value": 4},
@@ -34,8 +42,12 @@ var graph = {
         {"source": "John", "target": "Arash", "value": 4},
         {"source": "John", "target": "Jacquie", "value": 4},
         {"source": "John", "target": "Stefan", "value": 4},
+        {"source": "John", "target": "Mark", "value": 4},
         {"source": "Mark", "target": "Yigit", "value": 4},
         {"source": "Arash", "target": "Ioana", "value": 4},
+        {"source": "Arash", "target": "Giulia", "value": 4},
+        {"source": "Ioana", "target": "Aaron", "value": 4},
+        {"source": "Brian", "target": "Carol", "value": 4},
     ]
 }
 
