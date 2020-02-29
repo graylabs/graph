@@ -122,7 +122,7 @@ simulation.on("tick", function() {
   });
 
 node.append("image")
-    .attr("xlink:href", function(d) { return "./assets/img/graph/" + d.img; })
+    .attr("xlink:href", function(d) { return "/assets/img/graph/" + d.img; })
     .attr("x", function(d) { return -d.size / 2; })
     .attr("y", function(d) { return -d.size / 2; })
     .attr("width", function(d) { return d.size; })
